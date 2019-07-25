@@ -1,24 +1,109 @@
-.App {
+.map-container {
+  background: teal;
+  align-items: center;
+  justify-content: center;
+}
+
+.route-detail {
+  background: cornflowerblue;
+  height: 50%;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  padding: 16px;
+}
+
+.detail {
+  background: aqua;
+  margin-top: 16px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.route-detail-flex-container {
+  display: flex;
+  align-items: stretch;
+  margin: 8px;
+  background: #999999;
+}
+
+.route-time-tag {
+  flex-grow: 1;
+  color: #111111;
+  background: greenyellow;
+
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+.car-icon-container {
+  flex-grow: 1;
+  background: orangered;
   text-align: center;
+  margin: 1em 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.car-icon {
+  background: red;
+  vertical-align: middle;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.route-total-time-tag {
+  flex-grow: 9;
+  text-align: right;
+  color: red;
 }
 
-.App-intro {
-  font-size: large;
+.my-trip {
+  background: teal;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ccc;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.selection-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "depart-icon depart-location depart-location depart-location depart-location depart-location depart-location depart-location""arrive-icon arrive-location arrive-location arrive-location arrive-location arrive-location arrive-location arrive-location"". . . . . . . .";
+  min-height: 0;
+  max-width: 100%;
+}
+
+.arrive-icon {
+  grid-area: arrive-icon;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.depart-icon {
+  grid-area: depart-icon;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.depart-location {
+  grid-area: depart-location;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.arrive-location {
+  grid-area: arrive-location;
+  padding: 10px;
+}
+
+.line {
+  border-left: 3px solid #4a4a4a;
+  height: 100%;
+  margin-left: 48%;
 }
