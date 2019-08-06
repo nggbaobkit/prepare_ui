@@ -1,16 +1,18 @@
 .map-container {
-  background: teal;
+  background: teal !important;
   align-items: center;
   justify-content: center;
 }
 
 .route-detail {
   background: cornflowerblue;
-  height: 50%;
-  width: 90%;
+  height: 65%;
+  width: 100%;
+  /* use this so that padding for width 100 will be fixed */
+  box-sizing: border-box;
+  padding: 16px;
   position: absolute;
   bottom: 0;
-  padding: 16px;
 }
 
 .detail {
@@ -26,14 +28,12 @@
 .route-detail-flex-container {
   display: flex;
   align-items: stretch;
-  margin: 8px;
   background: #999999;
 }
 
-.route-time-tag {
+.my-trip-tag {
   flex-grow: 1;
-  color: #111111;
-  background: greenyellow;
+  color: #888888;
 
 }
 
@@ -47,7 +47,6 @@
 .car-icon-container {
   flex-grow: 1;
   background: orangered;
-  text-align: center;
   margin: 1em 0;
 }
 
@@ -56,10 +55,14 @@
   vertical-align: middle;
 }
 
-.route-total-time-tag {
+.cancel-trip-button {
   flex-grow: 9;
   text-align: right;
   color: red;
+}
+
+.line-detail {
+  flex-grow: 15;
 }
 
 .my-trip {
@@ -106,4 +109,22 @@
   border-left: 3px solid #4a4a4a;
   height: 100%;
   margin-left: 48%;
+}
+
+/* start booking button */
+.start-booking-button-container {
+  z-index: inherit;
+  position: absolute;
+  bottom: 0;
+  background: blueviolet;
+  width: calc(100% - 16px);
+  margin: 0 8px 16px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.start-booking-button {
+  font-size: 15px;
+  padding: 8px;
+  color: white;
 }

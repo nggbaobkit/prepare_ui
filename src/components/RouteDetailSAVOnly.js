@@ -4,16 +4,16 @@ export default class RouteDetailSAVOnly extends Component {
   render() {
     return (
       <div className="route-detail">
-        <div className="my-trip">
+        {/* <div className="my-trip">
           <div className="flex-container">
-            <div className="route-time-tag">My trip</div>
-            <div className="route-total-time-tag">CANCEL TRIP</div>
+            <div className="my-trip-tag">My trip</div>
+            <div className="cancel-trip-button">CANCEL TRIP</div>
           </div>
           <div>Sav icon</div>
-        </div>
+        </div> */}
 
         <div className="detail">
-          <div>Detail tag</div>
+          {/* <div>Detail tag</div> */}
           <div className="route-detail-flex-container">
             <div className="car-icon-container">
               <span class="helper" />
@@ -22,7 +22,7 @@ export default class RouteDetailSAVOnly extends Component {
                 alt="car icon"
               />
             </div>
-            <div className="route-total-time-tag">
+            <div className="line-detail">
               <div className="selection-grid-container">
                 <div className="depart-icon">
                   <img
