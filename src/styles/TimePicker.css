@@ -1,0 +1,41 @@
+#page-mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.time-picker-dialog {
+    border-radius: 5px;
+}
+
+.btn-holder {
+    display: flex;
+    margin: 16px 8px;
+}
+
+.confirm-btn {
+    color: #3F53B4 !important;
+    font-size: 1.2em !important;
+    flex-grow: 5;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.decline-btn {
+    color: #3F53B4 !important;
+    font-size: 1.2em !important;
+    flex-grow: 5;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.header {
+    padding-left: 16px;
+}

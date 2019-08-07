@@ -1,0 +1,77 @@
+.icon-holder {
+    display: flex;
+    align-items: stretch;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.sav-icon {
+    flex-grow: 8;
+    margin: auto auto auto 8px;
+}
+
+.count-down-text {
+    flex-grow: 1;
+    margin: auto;
+}
+
+.count-down-circle {
+    flex-grow: 1;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #cccccc;
+    margin: 8px 0 16px 0;
+}
+
+.fixed-text {
+    color: grey;
+}
+
+.important-text {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.time-info {
+    margin-top: 8px;
+}
+
+.carry-info {
+    display: flex;
+    align-items: stretch;
+}
+
+.num-of-pax {
+    flex-grow: 8;
+}
+
+.price {
+    flex-grow: 1;
+}
+
+.btn-holder {
+    margin: 16px 8px;
+}
+
+.confirm-btn {
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.decline-btn {
+    align-content: center;
+    justify-content: center;
+    color: red;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.book-sav-dialog {
+    margin: 8px;
+    padding: 16px;
+    width: calc(100% - 48px) !important;
+    border-radius: 5px;
+}
