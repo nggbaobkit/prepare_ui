@@ -1,3 +1,10 @@
+.picker-scroller {
+    border-top: #3F53B4 5px solid;
+    border-bottom: #3F53B4 5px solid;
+    border-left: #3F53B4 1px solid;
+    border-right: #3F53B4 1px solid;
+}
+
 #page-mask {
     position: fixed;
     left: 0;
@@ -7,10 +14,16 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+*:focus {
+    /* outline-color: #3F53B4;
+    outline-width: 2px; */
+    outline: none
+}
+
 .time-picker-dialog {
     border-radius: 5px;
     margin: auto;
-    width: 400px;
+    width: 80%;
 }
 
 .btn-holder {
@@ -24,7 +37,6 @@
     flex-grow: 5;
     align-content: center;
     justify-content: center;
-    width: 100%;
     border-radius: 5px;
 }
 
@@ -34,7 +46,6 @@
     flex-grow: 5;
     align-content: center;
     justify-content: center;
-    width: 100%;
     border-radius: 5px;
 }
 
