@@ -1,0 +1,70 @@
+.container {
+    min-height: 0 !important;
+    margin: 16px;
+    width: calc(100% - 32px) !important;
+}
+
+.text-container {
+    padding: 0 16px 8px 16px;
+}
+
+.accordior-title {
+    padding: 0 !important;
+}
+
+.fixed-text {
+    color: grey;
+}
+
+.important-text {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.some-space {
+    min-height: 8px;
+}
+
+.action {
+    display: flex;
+    align-items: stretch;
+    min-height: 0;
+}
+
+.extra-info {
+    flex-grow: 8;
+}
+
+.cancel-btn {
+    background-color: #a30b00 !important;
+    color: white !important;
+    font-size: 1.05em !important;
+    border-radius: 5px !important;
+}
+
+.cancel-btn-holder {
+    flex-grow: 1;
+}
+
+.estimate-pickup-time {
+    color: #3F53B4;
+}
+
+
+
+/*  hedear */
+.icon-holder {
+    display: flex;
+    align-items: stretch;
+    min-height: 0;
+    margin: 16px 16px 8px 16px;
+}
+
+.sav-icon {
+    flex-grow: 20;
+}
+
+.count-down-text {
+    flex-grow: 1;
+    text-align: right;
+}

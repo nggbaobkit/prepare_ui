@@ -7,7 +7,8 @@
     "react-dom": "^16.8.6",
     "react-mdl": "^1.11.0",
     "react-mobile-picker-scroll": "^0.2.14",
-    "react-scripts": "0.9.x"
+    "react-scripts": "0.9.x",
+    "semantic-ui-react": "^0.87.3"
   },
   "devDependencies": {},
   "scripts": {
